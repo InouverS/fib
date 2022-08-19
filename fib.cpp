@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
 
+
 int fib(int n){
   if ( n <= 2 ){
     return 1;
@@ -14,6 +15,6 @@ int main() {
   cout << "Informe o valores de n: " << endl;
     cin >> n;
   cout << "Resultado: " << fib(n) << endl;
-  
+
   
 }
